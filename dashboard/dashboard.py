@@ -11,7 +11,7 @@ import streamlit as st
 sns.set(style='dark')
 
 # Menyiapkan data bike_df
-bike_df = pd.read_csv("main_data.csv")
+bike_df = pd.read_csv("dashboard/main_data.csv")
 bike_df.head()
 
 
