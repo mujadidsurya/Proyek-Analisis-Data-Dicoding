@@ -96,8 +96,6 @@ min_date = pd.to_datetime(bike_df['dateday']).dt.date.min()
 max_date = pd.to_datetime(bike_df['dateday']).dt.date.max()
 
 with st.sidebar:
-    st.image('https://www.google.com/imgres?q=sepeda%20vector&imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F004%2F430%2F979%2Fnon_2x%2Fbike-with-a-yellow-color-free-vector.jpg&imgrefurl=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fbike&docid=S4uu-nr6-v5kdM&tbnid=skfQUttxi9UzsM&vet=12ahUKEwiyo4C_guuIAxVvzjgGHWQFHgsQM3oECEsQAA..i&w=980&h=980&hcb=2&ved=2ahUKEwiyo4C_guuIAxVvzjgGHWQFHgsQM3oECEsQAA')
-
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
         label='Rentang Waktu',
